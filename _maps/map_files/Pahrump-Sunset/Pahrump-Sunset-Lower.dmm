@@ -1421,6 +1421,13 @@
 /mob/living/simple_animal/hostile/deathclaw/mother,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"bAH" = (
+/obj/structure/curtain{
+	color = "#845f58"
+	},
+/obj/machinery/shower,
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "bAY" = (
 /turf/open/floor/plating/tunnel,
 /area/f13/tunnel)
@@ -3774,6 +3781,10 @@
 /area/f13/building)
 "bOH" = (
 /obj/structure/rack,
+/obj/item/stack/f13Cash/random/banker{
+	max_qty = 2000;
+	min_qty = 500
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "bOI" = (
@@ -3856,13 +3867,6 @@
 "bOQ" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
-/obj/item/stack/f13Cash/random/high,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
@@ -3909,6 +3913,11 @@
 /area/f13/tunnel)
 "bOV" = (
 /obj/machinery/light/floor,
+/obj/item/storage/secure/safe{
+	name = "safety deposit box";
+	pixel_x = 5;
+	pixel_y = -30
+	},
 /turf/open/floor/f13{
 	icon_state = "darkredfull"
 	},
@@ -4016,10 +4025,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "bPj" = (
-/obj/machinery/door/unpowered/securedoor{
-	max_integrity = 500;
-	name = "Store Bedroom";
-	req_one_access_txt = "34"
+/obj/structure/simple_door/room{
+	name = "Heaven's Night"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
@@ -4030,8 +4037,11 @@
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "bPm" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/stack/f13Cash/random/banker,
+/obj/item/storage/secure/safe{
+	name = "safety deposit box";
+	pixel_x = 5;
+	pixel_y = -30
+	},
 /turf/open/floor/f13{
 	icon_state = "darkredfull"
 	},
@@ -12197,6 +12207,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/caves)
+"jok" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "joy" = (
 /obj/structure/wreck/trash/machinepile{
 	pixel_x = -17
@@ -12231,6 +12247,12 @@
 	icon_state = "neutralrusty"
 	},
 /area/f13/tunnel)
+"jqj" = (
+/obj/structure/simple_door/room{
+	name = "Heaven's Night"
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "jqt" = (
 /obj/structure/simple_door/repaired,
 /obj/effect/decal/cleanable/dirt,
@@ -15642,6 +15664,16 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
+"nem" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 10
+	},
+/obj/structure/mirror{
+	pixel_x = 27
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "nen" = (
 /mob/living/simple_animal/hostile/supermutant/rangedmutant,
 /obj/effect/decal/cleanable/dirt,
@@ -16079,9 +16111,11 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/caves)
 "nER" = (
-/obj/structure/closet/cabinet,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
+/obj/structure/closet/cabinet{
+	anchored = 1
+	},
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "nFc" = (
@@ -17084,6 +17118,9 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building/museum)
+"oIK" = (
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "oJn" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13{
@@ -17295,6 +17332,11 @@
 /area/f13/tunnel)
 "oVl" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/secure/safe{
+	name = "safety deposit box";
+	pixel_x = 5;
+	pixel_y = 30
+	},
 /turf/open/floor/f13{
 	icon_state = "darkredfull"
 	},
@@ -17321,6 +17363,13 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/caves)
+"oXm" = (
+/obj/machinery/light/small{
+	dir = 4;
+	light_color = "red"
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/building)
 "oXp" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/highmid,
@@ -18666,6 +18715,17 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
+"qne" = (
+/obj/machinery/light/floor,
+/obj/structure/rack/shelf_metal,
+/obj/item/stack/f13Cash/random/banker{
+	max_qty = 2000;
+	min_qty = 500
+	},
+/turf/open/floor/f13{
+	icon_state = "darkredfull"
+	},
+/area/f13/building)
 "qnL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken{
@@ -19385,6 +19445,18 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/tunnel)
+"qWa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/secure/safe{
+	name = "safety deposit box";
+	pixel_x = 5;
+	pixel_y = -30
+	},
+/turf/open/floor/f13{
+	icon_state = "darkredfull"
+	},
+/area/f13/building)
 "qWe" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -20421,6 +20493,11 @@
 	},
 /area/f13/caves)
 "sky" = (
+/obj/item/storage/secure/safe{
+	name = "safety deposit box";
+	pixel_x = 5;
+	pixel_y = 30
+	},
 /turf/open/floor/f13{
 	icon_state = "darkredfull"
 	},
@@ -28325,7 +28402,7 @@ bPc
 jLV
 bOC
 bOC
-bOC
+qWa
 bPE
 uUw
 aae
@@ -28582,7 +28659,7 @@ bPa
 bPE
 oVl
 bOC
-sky
+bPm
 bPE
 uUw
 aae
@@ -28837,7 +28914,7 @@ bPb
 bPb
 bPb
 bPE
-bPm
+sky
 bOC
 bPm
 bPE
@@ -29094,8 +29171,8 @@ bOy
 bOy
 bPc
 bPE
-bPm
-bOV
+sky
+qne
 bPm
 bPE
 uUw
@@ -40168,7 +40245,7 @@ omO
 omO
 omO
 omO
-aae
+omO
 aae
 aal
 aal
@@ -40423,9 +40500,9 @@ bLL
 bPj
 alc
 alc
+alc
 nER
-bPE
-aae
+omO
 aae
 aal
 dXv
@@ -40680,9 +40757,9 @@ uTw
 omO
 bPh
 bOZ
+alc
 bOE
-bPE
-aae
+omO
 aal
 aal
 aal
@@ -40937,9 +41014,9 @@ bPE
 omO
 omO
 bPE
-bPE
+jqj
 omO
-aae
+omO
 aal
 aal
 aal
@@ -41191,12 +41268,12 @@ dDD
 oMU
 glY
 bCt
-aae
-aae
-aae
-aae
-aae
-aae
+aaA
+omO
+bAH
+oIK
+oIK
+omO
 aae
 aae
 aae
@@ -41449,11 +41526,11 @@ dDD
 glY
 gHm
 bCt
-aae
-aae
-aae
-aae
-aak
+omO
+oXm
+nem
+jok
+omO
 aae
 aae
 aae
@@ -41706,11 +41783,11 @@ bJq
 jre
 tIx
 bCt
-aae
-aae
-aae
-aae
-aak
+omO
+omO
+omO
+omO
+omO
 aae
 aae
 aae
