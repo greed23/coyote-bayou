@@ -66036,6 +66036,9 @@
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/water,
 /area/f13/wasteland)
+"xVG" = (
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/building/massfusion)
 "xVV" = (
 /obj/structure/fence/wooden,
 /obj/structure/fence/wooden{
@@ -111377,8 +111380,8 @@ eEW
 eEW
 eEW
 eEW
-vVo
 dll
+xVG
 eRa
 vIs
 iln
